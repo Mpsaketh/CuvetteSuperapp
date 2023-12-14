@@ -1,0 +1,113 @@
+.timerContainer {
+    height: 200px;
+    width: 870px;
+    background-color: #1e2343;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .timerBackground {
+    position: absolute;
+    left: 130px;
+    top: 0px;
+    padding-top: 1px;
+    color: #fff;
+    margin-top: 8px;
+  }
+  
+  .timerAbove {
+    content: '';
+    width: 192px;
+    height: 192px;
+    position: absolute;
+    bottom: 0px;
+    top: -5px;
+    right: -6px;
+    border-radius: 282px;
+    background: #191e39;
+    box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.61) inset,
+      -3px -7px 16px 0px rgba(95, 88, 88, 0.23);
+    }
+
+    .Time {
+      color: #fff;
+      font-family: Roboto;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 105.688%;
+      letter-spacing: 1.6px;
+      padding-left: 100px;
+    }
+    
+    .TimerClockContainer {
+      width: 45px;
+      text-align: center;
+      color: #fff;
+      padding-left: 2px;
+    }
+    
+    .TimerClocTimerClock {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .TimerCount {
+        padding-bottom: 50px;
+        cursor: pointer;
+      }
+      
+      .TimerCount p {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 105.688%;
+        padding-left: 35px;
+        padding-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .TimerClock h1 {
+        padding-top: 40px;
+      }
+      
+      .startAndStop {
+        position: absolute;
+        bottom: 10px;
+        right: 55px;
+        height: 40px;
+        width: 430px;
+        border-radius: 20px;
+        background: #ff6a6a;
+        border: none;
+        cursor: pointer;
+      }
+
+      .startAndStop p {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 105.688%; /* 32.763px */
+        letter-spacing: 1.24px;
+        margin-top: 6px;
+        
+      }        
+      .up{
+        padding-top: 70vh;
+      }
+      .TimerClock{
+        display: flex;
+        flex-direction: row;
+      }
+      .in{
+        width: 27px;
+        height: 17.221px;
+        flex-shrink: 0;
+      }

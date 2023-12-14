@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Delius+Unicase&family=Inter:wght@400;500&family=Poppins&family=Single+Day&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 190px;
+}
+
+.container {
+  height: 150vh;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
+}
+
+.general {
+  width: 50%;
+  height: 80%;
+  padding-left: 150px;
+}
+
+.logo {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.description {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 450;
+  }
+  
+  .nxtButton {
+    width: 180px;
+    height: 46px;
+    border-radius: 38.857px;
+    background: #148a08;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20.286px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 92.2%;
+    letter-spacing: 0.526px;
+    position: absolute;
+    margin-top: 130vh;
+    right: 100px;
+    cursor: pointer;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    overflow: hidden;
+    padding-top: 10px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+  .Text {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 4px;
+  }
+  
+  .error {
+    color: red;
+    font-family: Roboto;
+    font-size: 25.14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .rename {
+    width: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .addRename {
+    height: 42px;
+    width: 110px;
+    padding-right: 120px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 31px;
+    background: #148a08;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%;
+    letter-spacing: 0.503px;
+    padding: 10px;
+}
+
+.warning {
+  color: #085c00;
+  padding-left: 10px;
+  text-align: left;
+  cursor: pointer;
+}    

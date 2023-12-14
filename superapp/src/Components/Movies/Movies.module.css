@@ -1,0 +1,31 @@
+.movHeading {
+    color: #fff;
+    margin-left: 36px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 139.688%; /* 41.906px */
+    letter-spacing: 0.6px;
+  }
+  .movieBoxes {
+    border-radius: 9.159px;
+    display: flex;
+    margin-left: 40px;
+  }
+  .movieNames {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .movieImgages{
+    border-radius: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* height: 30vh;
+    width: 55vh; */
+    width: 341.927px;
+    height: 192.334px;
+    flex-shrink: 0;
+    padding-left: 2rem;
+  }

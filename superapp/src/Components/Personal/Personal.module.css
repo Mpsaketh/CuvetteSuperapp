@@ -1,0 +1,99 @@
+.personalInfo {
+    width: 600px;
+    height: 236px;
+    background-color: #5746ea;
+    border-radius: 19px;
+    display: flex;
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #a6e059;
+      border-radius: 20px;
+    }
+  
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #4bb1a6;
+      border-radius: 20px;
+    }
+  
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+  .personalImg img {
+    width: 155px;
+    height: 247px;
+    padding: 10px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.name {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21.947px;
+  margin-bottom: 0px;
+  line-height: 103.188%; /* 38.124px */
+  letter-spacing: 0.739px;
+}
+.email {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21.947px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  line-height: 103.688%; /* 38.309px */
+  letter-spacing: 0.739px;
+}
+
+.user {
+  margin-top: 20px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 41.134px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 66.188%; /* 47.744px */
+  letter-spacing: 1.443px;
+  margin-bottom: 10px;
+}
+
+.categoryContainer {
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: auto;
+  margin-top: 0;
+  margin-left: -15px;
+}
+
+.categoryTask {
+    height: 32px;
+    width: 143px;
+    padding-right: 120px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 31px;
+    background: #9f94ff;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18.15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%; /* 29.751px */
+    letter-spacing: 0.563px;
+    padding: 8px;
+    padding-left: 15px;
+  }  

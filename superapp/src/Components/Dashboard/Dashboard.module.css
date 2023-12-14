@@ -1,0 +1,27 @@
+.dashContainer {
+    height: 250vh;
+    width: 100vw;
+    background: #000;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+  }
+  .browse{
+    position: absolute;
+    margin-top: 60vh;
+    right: 40px;
+    width: 179px;
+    height: 50.12px;
+    border-radius: 34.777px;
+    background: #148a08;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 23.526px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 92.2%; /* 21.691px */
+    letter-spacing: 0.471px;
+  }
